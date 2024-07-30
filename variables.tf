@@ -70,13 +70,13 @@ variable "allow_list" {
 
 
 
-variable "Desktop_name" {
+variable "desktop_name" {
   type        = string
   description = "Name of the published desktop"
 }
 
 
-variable "Desktop_description" {
+variable "desktop_description" {
   type        = string
   description = "description of the published desktop"
 }

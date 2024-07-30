@@ -163,15 +163,13 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [citrix_delivery_group.example-delivery-group](https://registry.terraform.io/providers/citrix/citrix/latest/docs/resources/delivery_group) | resource |
-| [citrix_machine_catalog.example-manual-non-power-managed-mtsession](https://registry.terraform.io/providers/citrix/citrix/latest/docs/resources/machine_catalog) | resource |
+| [citrix_delivery_group.example_delivery_group](https://registry.terraform.io/providers/citrix/citrix/latest/docs/resources/delivery_group) | resource |
+| [citrix_machine_catalog.example_manual_non_power_managed_mtsession](https://registry.terraform.io/providers/citrix/citrix/latest/docs/resources/machine_catalog) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_Desktop_description"></a> [Desktop\_description](#input\_Desktop\_description) | description of the published desktop | `string` | n/a | yes |
-| <a name="input_Desktop_name"></a> [Desktop\_name](#input\_Desktop\_name) | Name of the published desktop | `string` | n/a | yes |
 | <a name="input_ad_admin_password"></a> [ad\_admin\_password](#input\_ad\_admin\_password) | The Domain Admin username of the on-premises Active Directory / The API key client id for Citrix Cloud customer. | `string` | n/a | yes |
 | <a name="input_ad_admin_username"></a> [ad\_admin\_username](#input\_ad\_admin\_username) | The Domain Admin password of the on-premises Active Directory / The API key client secret for Citrix Cloud customer. | `string` | n/a | yes |
 | <a name="input_allow_list"></a> [allow\_list](#input\_allow\_list) | List of users to allow for the Delivery Group in DOMAIN\username format | `list(string)` | n/a | yes |
@@ -182,12 +180,17 @@ No modules.
 | <a name="input_computer_name"></a> [computer\_name](#input\_computer\_name) | The hostname of the Citrix DDC server | `string` | n/a | yes |
 | <a name="input_delivery_group_description"></a> [delivery\_group\_description](#input\_delivery\_group\_description) | Description of the delivery group | `string` | n/a | yes |
 | <a name="input_delivery_group_name"></a> [delivery\_group\_name](#input\_delivery\_group\_name) | Name of the Delivery Group to create | `string` | n/a | yes |
+| <a name="input_desktop_description"></a> [desktop\_description](#input\_desktop\_description) | description of the published desktop | `string` | n/a | yes |
+| <a name="input_desktop_name"></a> [desktop\_name](#input\_desktop\_name) | Name of the published desktop | `string` | n/a | yes |
 | <a name="input_provider_disable_ssl_verification"></a> [provider\_disable\_ssl\_verification](#input\_provider\_disable\_ssl\_verification) | Disable SSL verification for the Citrix Virtual Apps and Desktops Delivery Controller. | `bool` | n/a | yes |
 | <a name="input_provider_hostname"></a> [provider\_hostname](#input\_provider\_hostname) | The hostname of the Citrix Virtual Apps and Desktops Delivery Controller. | `string` | n/a | yes |
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_delivery_group_id"></a> [delivery\_group\_id](#output\_delivery\_group\_id) | value of the delivery group id |
+| <a name="output_machine_catalog_id"></a> [machine\_catalog\_id](#output\_machine\_catalog\_id) | value of the machine catalog id |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 <!-- markdownlint-disable -->
 <!-- prettier-ignore-end -->
