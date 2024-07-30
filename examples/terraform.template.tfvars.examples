@@ -1,18 +1,20 @@
 #######################################################################################
-# Variables for the deployment of the Citrix Virtual Apps and Desktops service on Azure
-# Variable für neue MVD Umgebung Kunde Allgemein
+# Variables for the deployment of the Citrix Virtual Apps and Desktops on Premises
+# Rename and enter the correct values
 #######################################################################################
 
-ad_admin_username                  = "domain\\admin"
-provider_disable_ssl_verification  = true
-citrix_machine_catalog_zone        = "xxxxxxxxxxxxxxxxxxx"
-provider_hostname                  = "10.0.0.5"
-citrix_machine_catalog_name        = "mc001"
-citrix_machine_catalog_description = "Machine Catalog for the example delivery group"
-citrix_machine_catalog_account     = "domain\\vda
-delivery_group_name                = "example-delivery-group"
-delivery_group_description         = "Delivery Group for the example machine catalog"
-desktop_name                       = "vDesktop"
-desktop_description                = "Virtual Desktop for the example delivery group"
-allow_list                         = ["domain\\admin"]
-citrix_zone                        = "ctx-test-zone"
+citrix_zone                        = "ctx-test-zone"                                  #Name of the zone the machine catalog is associated with.
+ad_admin_username                  = "domain\\admin"                                  #Active Directory Admin or Citrix Admin Username to connect to DDC server
+provider_hostname                  = "10.0.0.5"                                       #For Citrix on-premises customers (Required):  Use this to specify Delivery Controller hostname.
+citrix_machine_catalog_name        = "mc001"                                          #Name of the machine catalog
+citrix_machine_catalog_description = "Machine Catalog for the example delivery group" #Description of the machine catalog
+citrix_machine_catalog_account     = "domain\\vda"                                    #The Computer AD Account for the machine. Must be in the format DOMAIN\\MACHINE
+
+delivery_group_name        = "example-delivery-group"                          #Name of the machine catalog
+delivery_group_description = "Delivery Group for the example machine catalog"  #Description of the machine catalog
+desktop_name               = "vDesktop"                                        #A list of Desktop resources to publish on the delivery group.
+desktop_description        = "Virtual #Desktop for the example delivery group" #Description of the published desktop
+allow_list                 = ["domain\\admin"]                                 #Users who can use this Desktop. Must be in DOMAIN\UserOrGroupName or user@domain.com format
+
+
+provider_disable_ssl_verification = true

@@ -22,10 +22,7 @@ module "citrix_core" {
   ad_admin_password                  = var.ad_admin_password
   ad_admin_username                  = var.ad_admin_username
   provider_hostname                  = var.provider_hostname
-  citrix_machine_catalog_account    = var.citrix_machine_catalog_account
-  provider_disable_ssl_verification = var.provider_disable_ssl_verification
-  allow_list                        = var.allow_list
+  citrix_machine_catalog_account     = var.citrix_machine_catalog_account
+  provider_disable_ssl_verification  = var.provider_disable_ssl_verification
+  allow_list                         = var.allow_list
 }
-
-
-
