@@ -29,8 +29,6 @@ variable "ad_admin_username" {
 
 }
 
-
-
 # citrix.tf variables
 ## On-Premises customer provider settings
 variable "provider_hostname" {
@@ -52,9 +50,6 @@ variable "provider_disable_ssl_verification" {
 # Common provider settings
 # For On-Premises customers: Domain Admin username and password are needed to interact with the Citrix Virtual Apps and Desktops Delivery Controller.
 # For Citrix Cloud customers: API key client id and secret are needed to interact with Citrix DaaS APIs. These can be created/found under Identity and Access Management > API Access
-
-
-
 # delivery_groups.tf variables
 variable "delivery_group_name" {
   description = "Name of the Delivery Group to create"
