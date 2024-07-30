@@ -37,7 +37,7 @@ module "citrix_core" {
   provider_disable_ssl_verification = var.provider_disable_ssl_verification
   allow_list = var.allow_list
 }
-
+```
 
 ---
 
