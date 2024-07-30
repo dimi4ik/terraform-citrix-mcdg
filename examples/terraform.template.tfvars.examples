@@ -1,0 +1,17 @@
+#######################################################################################
+# Variables for the deployment of the Citrix Virtual Apps and Desktops service on Azure
+# Variable für neue MVD Umgebung Kunde Allgemein
+#######################################################################################
+
+computer_name                      = "10.0.0.7" #   # IP or FQDN of the DDC machine
+ad_admin_username                  = "domain\\admin" 
+provider_disable_ssl_verification  = true
+citrix_machine_catalog_zone        = "xxxxxxxxxxxxxxxxxxx"
+citrix_machine_catalog_name        = "mc001"
+citrix_machine_catalog_description = "Machine Catalog for the example delivery group"
+citrix_machine_catalog_account     = "domain\\vda
+delivery_group_name                = "example-delivery-group"
+delivery_group_description         = "Delivery Group for the example machine catalog"
+desktop_name                       = "vDesktop"
+desktop_description                = "Virtual Desktop for the example delivery group"
+allow_list                         = ["domain\\admin"]
