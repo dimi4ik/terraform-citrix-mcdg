@@ -4,17 +4,18 @@
 
 # Table of Contents
 
-- [Usage](#Usage)
-- [Share the Love](#share-the-love)
-- [Contributing](#contributing)
-- [Bug Reports and Feature Requests](#bug-reports--feature-requests)
-- [Developing](#developing)
-- [Requirements](#requirements)
-- [Providers](#providers)
-- [Modules](#modules)
-- [Resources](#resources)
-- [Inputs](#inputs)
-- [Outputs](#outputs)
+- [Table of Contents](#table-of-contents)
+  - [Usage](#usage)
+  - [Share the Love](#share-the-love)
+  - [Contributing](#contributing)
+    - [Bug Reports \& Feature Requests](#bug-reports--feature-requests)
+    - [Developing](#developing)
+  - [Requirements](#requirements)
+  - [Providers](#providers)
+  - [Modules](#modules)
+  - [Resources](#resources)
+  - [Inputs](#inputs)
+  - [Outputs](#outputs)
 
 
 ## Usage
@@ -32,12 +33,11 @@ module "citrix_core" {
   ad_admin_password = var.ad_admin_password
   ad_admin_username = var.ad_admin_username
   provider_hostname = var.provider_hostname
-  computer_name = var.computer_name
   citrix_machine_catalog_account =var.citrix_machine_catalog_account
   provider_disable_ssl_verification = var.provider_disable_ssl_verification
   allow_list = var.allow_list
 }
-
+```
 
 ---
 

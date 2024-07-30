@@ -10,10 +10,6 @@ variable "ad_admin_password" {
   sensitive   = true
 }
 
-variable "computer_name" {
-  type        = string
-  description = "The hostname of the Citrix DDC server"
-}
 
 
 

@@ -3,10 +3,10 @@
 # Variable für neue MVD Umgebung Kunde Allgemein
 #######################################################################################
 
-computer_name                      = "10.0.0.7" #   # IP or FQDN of the DDC machine
-ad_admin_username                  = "domain\\admin" 
+ad_admin_username                  = "domain\\admin"
 provider_disable_ssl_verification  = true
 citrix_machine_catalog_zone        = "xxxxxxxxxxxxxxxxxxx"
+provider_hostname                  = "10.0.0.5"
 citrix_machine_catalog_name        = "mc001"
 citrix_machine_catalog_description = "Machine Catalog for the example delivery group"
 citrix_machine_catalog_account     = "domain\\vda
