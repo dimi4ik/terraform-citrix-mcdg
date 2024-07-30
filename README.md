@@ -22,7 +22,7 @@
 
 ```
 module "citrix_core" {
-  source           = "git::https://github.com/dimi4ik/terraform-citrix-mcdg/?ref=v0.0.3"
+  source           = "git::https://github.com/dimi4ik/terraform-citrix-mcdg/?ref=v0.0.5"
   delivery_group_name = var.delivery_group_name
   delivery_group_description = var.delivery_group_description
   desktop_description = var.desktop_description
