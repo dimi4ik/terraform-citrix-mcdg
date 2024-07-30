@@ -8,17 +8,21 @@
 
 ## Providers
 
-No providers.
+| Name | Version |
+|------|---------|
+| <a name="provider_citrix"></a> [citrix](#provider\_citrix) | 0.6.3 |
 
 ## Modules
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_citrix_core"></a> [citrix\_core](#module\_citrix\_core) | git::https://github.com/dimi4ik/terraform-citrix-mcdg/ | v0.0.4 |
+| <a name="module_citrix_core"></a> [citrix\_core](#module\_citrix\_core) | git::https://github.com/dimi4ik/terraform-citrix-mcdg/ | v0.0.5 |
 
 ## Resources
 
-No resources.
+| Name | Type |
+|------|------|
+| [citrix_zone.test_zone](https://registry.terraform.io/providers/citrix/citrix/latest/docs/data-sources/zone) | data source |
 
 ## Inputs
 
@@ -31,6 +35,7 @@ No resources.
 | <a name="input_citrix_machine_catalog_description"></a> [citrix\_machine\_catalog\_description](#input\_citrix\_machine\_catalog\_description) | Description of the machine catalog | `string` | n/a | yes |
 | <a name="input_citrix_machine_catalog_name"></a> [citrix\_machine\_catalog\_name](#input\_citrix\_machine\_catalog\_name) | Name of the machine catalog | `string` | n/a | yes |
 | <a name="input_citrix_machine_catalog_zone"></a> [citrix\_machine\_catalog\_zone](#input\_citrix\_machine\_catalog\_zone) | Zone of the machine catalog | `string` | n/a | yes |
+| <a name="input_citrix_zone"></a> [citrix\_zone](#input\_citrix\_zone) | value | `string` | n/a | yes |
 | <a name="input_delivery_group_description"></a> [delivery\_group\_description](#input\_delivery\_group\_description) | Description of the delivery group | `string` | n/a | yes |
 | <a name="input_delivery_group_name"></a> [delivery\_group\_name](#input\_delivery\_group\_name) | Name of the Delivery Group to create | `string` | n/a | yes |
 | <a name="input_desktop_description"></a> [desktop\_description](#input\_desktop\_description) | description of the published desktop | `string` | n/a | yes |
