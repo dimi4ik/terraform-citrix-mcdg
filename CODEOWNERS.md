@@ -1,3 +1,3 @@
-* ssokolic
-* xoap-io
-* bbrauneck
+- ssokolic
+- xoap-io
+- bbrauneck
