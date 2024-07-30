@@ -15,4 +15,3 @@ delivery_group_description         = "Delivery Group for the example machine cat
 desktop_name                       = "vDesktop"
 desktop_description                = "Virtual Desktop for the example delivery group"
 allow_list                         = ["domain\\admin"]
-
