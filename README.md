@@ -110,7 +110,6 @@ No modules.
 | <a name="input_citrix_machine_catalog_description"></a> [citrix\_machine\_catalog\_description](#input\_citrix\_machine\_catalog\_description) | Description of the machine catalog | `string` | n/a | yes |
 | <a name="input_citrix_machine_catalog_name"></a> [citrix\_machine\_catalog\_name](#input\_citrix\_machine\_catalog\_name) | Name of the machine catalog | `string` | n/a | yes |
 | <a name="input_citrix_machine_catalog_zone"></a> [citrix\_machine\_catalog\_zone](#input\_citrix\_machine\_catalog\_zone) | Zone of the machine catalog | `string` | n/a | yes |
-| <a name="input_computer_name"></a> [computer\_name](#input\_computer\_name) | The hostname of the Citrix DDC server | `string` | n/a | yes |
 | <a name="input_delivery_group_description"></a> [delivery\_group\_description](#input\_delivery\_group\_description) | Description of the delivery group | `string` | n/a | yes |
 | <a name="input_delivery_group_name"></a> [delivery\_group\_name](#input\_delivery\_group\_name) | Name of the Delivery Group to create | `string` | n/a | yes |
 | <a name="input_desktop_description"></a> [desktop\_description](#input\_desktop\_description) | description of the published desktop | `string` | n/a | yes |

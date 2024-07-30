@@ -10,19 +10,6 @@ variable "ad_admin_password" {
   sensitive   = true
 }
 
-variable "computer_name" {
-  type        = string
-  description = "The hostname of the Citrix DDC server"
-}
-
-
-
-########################################################################
-### die Vars muss im voraus als Environment Variables gesetzt werden ###
-###  ###
-########################################################################
-
-
 variable "ad_admin_username" {
   type        = string
   description = "The Domain Admin password of the on-premises Active Directory / The API key client secret for Citrix Cloud customer."
@@ -62,8 +49,6 @@ variable "allow_list" {
   type        = list(string)
 
 }
-
-
 
 variable "desktop_name" {
   type        = string
