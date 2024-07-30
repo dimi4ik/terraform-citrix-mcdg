@@ -19,7 +19,7 @@
 
 
 ## Usage
-Step 1.   Enter citrix admin password as variable
+### Step 1.   Enter citrix admin password as variable
 
 #password for windows
 $env:TF_VAR_ad_admin_password=""
@@ -27,10 +27,10 @@ $env:TF_VAR_ad_admin_password=""
 #password for linux
 export TF_VAR_ad_admin_password=""
 
-Step 2.   Rename and enter the correct values
+### Step 2.   Rename and enter the correct values
 File examples\terraform.template.tfvars.examples
 
-Step 3.   GO
+### Step 3.   GO
 terraform init, terraform plan, apply
 
 ```
