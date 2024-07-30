@@ -104,3 +104,10 @@ variable "delivery_group_description" {
   description = "Description of the delivery group"
 
 }
+
+
+
+variable "citrix_zone" {
+  description = "value"
+  type        = string
+}

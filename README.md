@@ -20,6 +20,11 @@
 
 ## Usage
 
+#password for windows
+$env:TF_VAR_ad_admin_password=""
+#password for linux
+export TF_VAR_ad_admin_password=""
+
 ```
 module "citrix_core" {
   source           = "git::https://github.com/dimi4ik/terraform-citrix-mcdg/?ref=v0.0.5"
